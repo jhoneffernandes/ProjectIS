@@ -37,11 +37,6 @@ header a{
 
 }
 
-main{
-display: flex;	
-flex: 1 0 auto;
-}
-
 .logo2{
     display: none;
 }
@@ -124,6 +119,8 @@ footer {
  
 
 main {
+    display: flex;	
+    flex: 1 0 auto;
     flex-wrap: nowrap;
 }
 
