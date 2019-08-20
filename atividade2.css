@@ -6,8 +6,9 @@ body, html {
 }
 
 body {
-    display: flex;
-    }
+	display: flex;
+	flex-direction: column;
+}
 
 header {
     display: flex;
@@ -34,6 +35,11 @@ header a{
     text-decoration: none;
     color: black;
     font-size: 1.5rem;
+
+}
+
+main {
+    flex: 1 0 auto;
 
 }
 
@@ -119,8 +125,6 @@ footer {
  
 
 main {
-    display: flex;	
-    flex: 1 0 auto;
     flex-wrap: nowrap;
 }
 
