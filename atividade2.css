@@ -1,0 +1,121 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+header img{
+    height: 6rem;
+    width: 6rem;
+}
+
+header nav{
+    margin: 1rem ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header a{
+	margin: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+
+}
+
+.logo2{
+    display: none;
+}
+
+.destaque1{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.destaque1 img{
+    height: 20rem;
+    width: 80%;
+}
+
+footer {
+    text-align: center;     
+    background-color: black;
+    color: white;
+}
+
+@media (min-width:760px){
+
+    main{
+        display: inline-block;
+    }
+
+    header{
+        background-color: gray;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        
+    }
+
+    header a{
+        color: orange;
+    }
+
+    header nav{
+       
+        flex-direction: row;
+        
+    }
+
+    .logo1{
+        display: none;
+    }
+
+    .logo2{
+        display: block;
+    }
+
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;        
+    }
+
+    .destaque1{
+        margin: 20px;
+        width: 40%;
+        flex-flow: row wrap;
+        justify-content:center;
+
+
+            }
+
+            footer {
+                background-color: gray;
+                color: orange;
+            }
+
+
+ }
+
+ @media (min-width:800px){
+ 
+
+main {
+    flex-wrap: nowrap;
+}
+
+}
